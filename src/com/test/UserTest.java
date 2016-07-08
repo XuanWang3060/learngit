@@ -12,6 +12,7 @@ public class UserTest {
 		
 		UserService us = new UserService();
 		us.addUser(u);
+		System.out.println("the test class is end!");
 	}
 
 }
