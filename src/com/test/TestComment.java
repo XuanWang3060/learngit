@@ -32,6 +32,15 @@ public abstract class TestComment {
 		
 		System.out.println("test rollback!");
 		System.out.println("test commit change choose!");
+		int number = 23871;
+		int reverse = 0;
+		do{
+			int lastDigit = number % 10;
+			reverse = (reverse * 10) + lastDigit;
+			number = number / 10;
+		}while(number > 0);
+		System.out.println("That number reverse is: " + reverse);
+		System.out.println("手心输入法的候选框跟随光标");
 		
 	}
 	
